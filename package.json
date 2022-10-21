@@ -1,0 +1,15 @@
+{
+  "name": "tsc-esm-issue-with-use-ssr",
+  "type": "module",
+  "description": "minimal reproduction repository for the issue https://github.com/alex-cory/use-ssr/issues/52",
+  "private": true,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "4.8.4"
+  },
+  "dependencies": {
+    "use-ssr": "1.0.24"
+  }
+}
